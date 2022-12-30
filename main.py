@@ -1,3 +1,4 @@
+"The snake game"
 from turtle import Screen
 import time
 from snake import Snake
