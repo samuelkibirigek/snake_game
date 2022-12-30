@@ -3,13 +3,13 @@ from turtle import Turtle
 
 class Scoreboard(Turtle):
 
-    def __int__(self):
+    def __init__(self):
         super().__init__()
         self.score = 0
-        self.color("white")
+        self.color("green")
         self.write(f"Score: {self.score}", align="center", font=('Arial', 24, 'normal'))
         self.hideturtle()
-        self.goto(0, 290)
+        self.goto(0, 270)
 
 
 
